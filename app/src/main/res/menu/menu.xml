@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_add_new"
+        android:title="Add Text"
+        android:icon="@drawable/ic_text_format_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/add_photo"
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        android:title="Add Photo"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/timeline"
+        android:title="Go to photos timeline"
+        app:showAsAction="never"></item>
+
+</menu>
